@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Number Generator</title>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="description offset-md-1 col-md-10">
+                <h5>使用说明 & 注意事项:</h5>
+                <p>1.左侧输入框输标点号，用一个空格作为分隔。(例如：1 2 3 4 5 6 7)</p>
+                <p>2.右侧输入框输抽取个数，要不大于左侧输入框标点数量。</p>
+                <p>3.下方输入框输生成组的个数。</p>
+                <p>4.请按上到下的顺序填写，不要跳过，可以不用填满。</p>
+                <p>5.以上输入值均为整数。</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-1">
+                <div class="label">Group1</div>
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="arr">
+            </div>
+            <div class="col-md-1">
+                <input type="text" class="num">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-1">
+                <div class="label">Group2</div>
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="arr">
+            </div>
+            <div class="col-md-1">
+                <input type="text" class="num">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-1">
+                <div class="label">Group3</div>
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="arr">
+            </div>
+            <div class="col-md-1">
+                <input type="text" class="num">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-1">
+                <div class="label">Group4</div>
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="arr">
+            </div>
+            <div class="col-md-1">
+                <input type="text" class="num">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-1">
+                <div class="label">Group5</div>
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="arr">
+            </div>
+            <div class="col-md-1">
+                <input type="text" class="num">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-1">
+                <div class="label">Group6</div>
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="arr">
+            </div>
+            <div class="col-md-1">
+                <input type="text" class="num">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-1">
+                <div class="label">Group7</div>
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="arr">
+            </div>
+            <div class="col-md-1">
+                <input type="text" class="num">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-1">
+                <div class="label">Group8</div>
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="arr">
+            </div>
+            <div class="col-md-1">
+                <input type="text" class="num">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-1">
+                <div class="label">Group9</div>
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="arr">
+            </div>
+            <div class="col-md-1">
+                <input type="text" class="num">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-1">
+                <div class="label">Group10</div>
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="arr">
+            </div>
+            <div class="col-md-1">
+                <input type="text" class="num">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="operate offset-md-1 col-md-1">
+                <div class="label">生成数量</div>
+            </div>
+            <div class="operate col-md-10">
+                <div class="total">
+                    <input id="amount" type="text">
+                    <span>组</span>
+                </div>
+                <button type="button" class="btn btn-success btn-sm" onclick="getArray()">生成</button>
+                <button type="button" class="btn btn-info btn-sm" onclick="copy()">复制</button>
+                <button type="button" class="btn btn-danger btn-sm" onclick="empty()">清空</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-10">
+                <textarea id="result" placeholder="生成结果" rows="5"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
