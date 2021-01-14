@@ -7,9 +7,9 @@ body{
 }
 
 .container{
-  box-shadow: -8px -8px 16px -10px rgba(255, 255, 255, 1),8px 8px 16px -10px rgba(0 , 0, 0, .15);
   border-radius: 20px;
-  background: linear-gradient(135deg,rgba(230,230,230,1) 0%,rgba(246,246,246,1)100%);
+  box-shadow: -8px -8px 16px -10px rgba(255, 255, 255, 1),8px 8px 16px -10px rgba(0 , 0, 0, .15);
+  background-color: #f6f6f6;
   color: #666666;
 }
 
