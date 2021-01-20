@@ -1,17 +1,28 @@
+<!--
+ * @Author: Hyman Choi
+ * @Date: 2021-01-12 21:06:36
+ * @LastEditTime: 2021-01-20 22:19:27
+ * @LastEditors: Hyman Choi
+ * @Description: In User Settings Edit
+ * @FilePath: /Treasure-Bag/Neumorphism-Calculator/README.md
+-->
 # Neumorphism Calculator
 
 💁‍♂️ [项目预览](https://hymanchoi.github.io/Treasure-Bag/Neumorphism-Calculator/index.html)
 
 ### 项目介绍
+
 一个新拟态UI风格的计算器
 
 ### 相关知识
+
 1. Flexbox
 2. CSS Variables  
 3. CSS Grid  
 4. Vue
 
 ### 关键代码
+
 ```
 // style.css
 background: linear-gradient(135deg,rgba(230,230,230,1) 0%,rgba(246,246,246,1)100%);
