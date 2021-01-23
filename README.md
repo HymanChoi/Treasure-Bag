@@ -1,7 +1,7 @@
 <!--
  * @Author: Hyman Choi
  * @Date: 2021-01-12 22:25:08
- * @LastEditTime: 2021-01-20 22:19:53
+ * @LastEditTime: 2021-01-23 22:36:38
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /Treasure-Bag/README.md
@@ -19,4 +19,7 @@
 
 2. Random Number Generator 随机数生成器  
 💁‍♂️ [项目预览](https://hymanchoi.github.io/Treasure-Bag/Random-Number-Generator/index.html)
+
+3. Skeleton Screen 骨架屏  
+💁‍♂️ [项目预览](https://hymanchoi.github.io/Treasure-Bag/Skeleton-Screen/index.html)
 

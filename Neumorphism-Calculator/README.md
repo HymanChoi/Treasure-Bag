@@ -1,8 +1,8 @@
 <!--
  * @Author: Hyman Choi
  * @Date: 2021-01-12 21:06:36
- * @LastEditTime: 2021-01-20 22:19:27
- * @LastEditors: Hyman Choi
+ * @LastEditTime: 2021-01-23 22:35:11
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /Treasure-Bag/Neumorphism-Calculator/README.md
 -->
@@ -25,6 +25,7 @@
 
 ```
 // style.css
+
 background: linear-gradient(135deg,rgba(230,230,230,1) 0%,rgba(246,246,246,1)100%);
 box-shadow: -4px -4px 10px -8px rgba(255, 255, 255, 1), 4px 4px 10px -8px rgba(0, 0, 0, .3);
 ```
